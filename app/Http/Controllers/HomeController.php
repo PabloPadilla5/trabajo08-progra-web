@@ -6,6 +6,6 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller {
     public function __invoke() {
-        return "Controlador: Pablo Alexis Padilla Maldonado";
+        return view("home");
     }
 }
